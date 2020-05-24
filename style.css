@@ -52,7 +52,7 @@
 
     button{
         background-color: #0092ff !important;
-        margin-right: 10% !important;
+        margin-right: 14% !important;
     }
 
     .home{
@@ -156,15 +156,15 @@
     .propostas{
         width: 100%;
         background-color: #295175;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .propostas-titulo h1{
         text-align: center;
         margin-top: 4%;
         border-bottom: 5px solid #ff800a;
-        width: 42%;
-        margin-left: 30%;
+        width: 45%;
+        margin-left: 28%;
         padding-bottom: 5px;
     }
 
@@ -176,8 +176,9 @@
     }
 
     .propostas-lista{
-        width: 106%;
-        margin-left: 2%;
+        width: 90%;
+        margin-left: 10%;
+        margin-right: 2%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -203,7 +204,7 @@
         border-bottom: 4px solid #ff800a;
         border-left: 4px solid #ff800a;
         border-right: 4px solid #ff800a;
-        border-radius: 40px;
+        border-radius: 30px;
         width: 90%;
         padding-bottom: 5%;
     }
@@ -211,15 +212,15 @@
     .propostas-lista ul li{
         padding-bottom: 1.5%;
         padding-top: 5%;
-        margin-left: 8%;
+        margin-left: 12%;
         margin-right: 8%;
     }
 
     .membros-daect{
         width: 100%;
         background-color: #d9d9d9;
-        height: 950px;
-        margin-top: 20%
+        height: 2500px;
+        margin-top: 15%
     }
 
     .membros-titulo h1{
@@ -246,72 +247,108 @@
 
     .cargo{
         float: left;
-        width: 22%;
+        width: 100%;
         height: 300px;
         margin-left: 3%;
+    }
+    
+    .cargo-de-sg{
+        margin-left: 17%;
     }
 
     .cargo-de-sg h3{
         margin-left: 15%;
-        padding-bottom: 10%;
+        padding-bottom: 3%;
     }
 
     .cargo-presidencia{
-        margin-left: 3%;
+        margin-left: 17%;
     }
 
     .cargo-presidencia h3{
         text-align: center;
-        margin-right: 15%;
-        padding-bottom: 10%;
+        margin-right: 35%;
+        padding-bottom: 3%;
     }
 
     .cargo-presidencia ul{
         margin-left: 8%;
     }
+    
+    .cargo-assuntos-academicos{
+         margin-left: 17%;
+    }
 
     .cargo-assuntos-academicos h3{
         text-align: center;
-        margin-right: 10%;
+        margin-right: 35%;
+        padding-bottom: 3%;
+    }
+    
+    .cargo-diretoria-eventos{
+        margin-left: 17%;
     }
 
     .cargo-diretoria-eventos h3{
-        padding-bottom: 11%;
+        padding-bottom: 3%;
+        margin-left: 12%;
     }
 
     .cargo-diretoria-eventos ul{
-        margin-left: 8%;
+        margin-left: 3%;
+    }
+    
+    .cargo-comunicacao{
+        margin-left: 14%;
     }
 
     .cargo-comunicacao h3{
         text-align: center;
-        margin-right: 10%;
+        margin-right: 30%;
+        padding-bottom: 3%;
     }
 
     .cargo-comunicacao ul{
-        margin-left: 10%;
+        margin-left: 4%;
+    }
+    
+    .cargo-esportes-lazer{
+        margin-left: 17%;
     }
 
     .cargo-esportes-lazer h3{
         text-align: center;
-        margin-right: 15%;
+        margin-right: 35%;
+    }
+    
+    .cargo-diretoria-financas{
+        margin-left: 17%;
     }
 
     .cargo-diretoria-financas h3{
-        padding-bottom: 11%;
+        padding-bottom: 3%;
+        margin-left: 10%;
     }
 
     .cargo-diretoria-financas ul{
-        margin-left: 10%;
+        margin-left: 3%;
+    }
+    
+    .cargo-pesquisa-extensao{
+        margin-left: 17%;
     }
 
     .cargo-pesquisa-extensao h3{
         text-align: center;
-        margin-right: 15%;
+        margin-right: 35%;
+    }
+    
+    .cargo-pesquisa-extensao ul{
+        margin-left: 3%;
     }
 
     .cargo img{
-        width: 80px;
+        width: 120px;
         margin-left: 15%;
         padding-bottom: 10px;
     }
@@ -519,7 +556,7 @@
 
     button{
         background-color: #0092ff !important;
-        margin-right: 10% !important;
+        margin-right: 19% !important;
     }
 
     .home{
@@ -625,7 +662,7 @@
     .propostas{
         width: 100%;
         background-color: #295175;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .propostas-titulo h1{
@@ -633,7 +670,7 @@
         margin-top: 4%;
         border-bottom: 5px solid #ff800a;
         width: 35%;
-        margin-left: 32%;
+        margin-left: 33%;
         padding-bottom: 5px;
     }
 
@@ -645,8 +682,8 @@
     }
 
     .propostas-lista{
-        width: 106%;
-        margin-left: 2%;
+        width: 90%;
+        margin-left: 10%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -680,15 +717,15 @@
     .propostas-lista ul li{
         padding-bottom: 1.5%;
         padding-top: 5%;
-        margin-left: 8%;
+        margin-left: 10%;
         margin-right: 8%;
     }
 
     .membros-daect{
         width: 100%;
         background-color: #d9d9d9;
-        height: 950px;
-        margin-top: 20%
+        height: 2500px;
+        margin-top: 15%
     }
 
     .membros-titulo h1{
@@ -697,8 +734,8 @@
         font-weight: bolder;
         font-size: 25px;
         border-bottom: 5px solid #295175;
-        width: 75%;
-        margin-left: 15%;
+        width: 70%;
+        margin-left: 17%;
         padding-top: 3%;
         padding-bottom: 5px;
     }
@@ -715,72 +752,108 @@
 
     .cargo{
         float: left;
-        width: 22%;
+        width: 100%;
         height: 300px;
         margin-left: 3%;
+    }
+    
+    .cargo-de-sg{
+        margin-left: 23%;
     }
 
     .cargo-de-sg h3{
         margin-left: 15%;
-        padding-bottom: 10%;
+        padding-bottom: 3%;
     }
 
     .cargo-presidencia{
-        margin-left: 3%;
+        margin-left: 23%;
     }
 
     .cargo-presidencia h3{
         text-align: center;
-        margin-right: 15%;
-        padding-bottom: 10%;
+        margin-right: 35%;
+        padding-bottom: 3%;
     }
 
     .cargo-presidencia ul{
         margin-left: 8%;
     }
+    
+    .cargo-assuntos-academicos{
+         margin-left: 23%;
+    }
 
     .cargo-assuntos-academicos h3{
         text-align: center;
-        margin-right: 10%;
+        margin-right: 35%;
+        padding-bottom: 3%;
+    }
+    
+    .cargo-diretoria-eventos{
+        margin-left: 23%;
     }
 
     .cargo-diretoria-eventos h3{
-        padding-bottom: 11%;
+        padding-bottom: 3%;
+        margin-left: 12%;
     }
 
     .cargo-diretoria-eventos ul{
-        margin-left: 8%;
+        margin-left: 3%;
+    }
+    
+    .cargo-comunicacao{
+        margin-left: 20%;
     }
 
     .cargo-comunicacao h3{
         text-align: center;
-        margin-right: 10%;
+        margin-right: 30%;
+        padding-bottom: 3%;
     }
 
     .cargo-comunicacao ul{
-        margin-left: 10%;
+        margin-left: 4%;
+    }
+    
+    .cargo-esportes-lazer{
+        margin-left: 23%;
     }
 
     .cargo-esportes-lazer h3{
         text-align: center;
-        margin-right: 15%;
+        margin-right: 35%;
+    }
+    
+    .cargo-diretoria-financas{
+        margin-left: 23%;
     }
 
     .cargo-diretoria-financas h3{
-        padding-bottom: 11%;
+        padding-bottom: 3%;
+        margin-left: 10%;
     }
 
     .cargo-diretoria-financas ul{
-        margin-left: 10%;
+        margin-left: 3%;
+    }
+    
+    .cargo-pesquisa-extensao{
+        margin-left: 23%;
     }
 
     .cargo-pesquisa-extensao h3{
         text-align: center;
-        margin-right: 15%;
+        margin-right: 35%;
+    }
+    
+    .cargo-pesquisa-extensao ul{
+        margin-left: 3%;
     }
 
     .cargo img{
-        width: 80px;
+        width: 120px;
         margin-left: 15%;
         padding-bottom: 10px;
     }
@@ -988,7 +1061,7 @@
 
     button{
         background-color: #0092ff !important;
-        margin-right: 10% !important;
+        margin-right: 3% !important;
     }
 
     .home{
@@ -1085,7 +1158,7 @@
     .propostas{
         width: 100%;
         background-color: #295175;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .propostas-titulo h1{
@@ -1093,7 +1166,7 @@
         margin-top: 4%;
         border-bottom: 5px solid #ff800a;
         width: 25%;
-        margin-left: 5%;
+        margin-left: 10%;
         padding-bottom: 5px;
     }
 
@@ -1105,8 +1178,8 @@
     }
 
     .propostas-lista{
-        width: 106%;
-        margin-left: 2%;
+        width: 90%;
+        margin-left: 10%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -1148,7 +1221,7 @@
         width: 100%;
         background-color: #d9d9d9;
         height: 950px;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .membros-titulo h1{
@@ -1570,7 +1643,7 @@
     .propostas{
         width: 100%;
         background-color: #295175;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .propostas-titulo h1{
@@ -1578,7 +1651,7 @@
         margin-top: 4%;
         border-bottom: 5px solid #ff800a;
         width: 20%;
-        margin-left: 5%;
+        margin-left: 10%;
         padding-bottom: 5px;
     }
 
@@ -1590,8 +1663,8 @@
     }
 
     .propostas-lista{
-        width: 106%;
-        margin-left: 2%;
+        width: 90%;
+        margin-left: 10%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -1633,7 +1706,7 @@
         width: 100%;
         background-color: #d9d9d9;
         height: 950px;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .membros-titulo h1{
@@ -2031,7 +2104,7 @@
     .propostas{
         width: 100%;
         background-color: #295175;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .propostas-titulo h1{
@@ -2039,7 +2112,7 @@
         margin-top: 4%;
         border-bottom: 5px solid #ff800a;
         width: 15%;
-        margin-left: 5%;
+        margin-left: 10%;
         padding-bottom: 5px;
     }
 
@@ -2051,8 +2124,8 @@
     }
 
     .propostas-lista{
-        width: 106%;
-        margin-left: 2%;
+        width: 90%;
+        margin-left: 10%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -2090,7 +2163,7 @@
         width: 100%;
         background-color: #d9d9d9;
         height: 950px;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .membros-titulo h1{
@@ -2496,7 +2569,7 @@
     .propostas{
         width: 100%;
         background-color: #295175;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .propostas-titulo h1{
@@ -2504,7 +2577,7 @@
         margin-top: 4%;
         border-bottom: 5px solid #ff800a;
         width: 15%;
-        margin-left: 5%;
+        margin-left: 10%;
         padding-bottom: 5px;
     }
 
@@ -2516,8 +2589,8 @@
     }
 
     .propostas-lista{
-        width: 106%;
-        margin-left: 2%;
+        width: 90%;
+        margin-left: 10%;
         margin-top: 5%;
         margin-bottom: 3%;
     }
@@ -2556,7 +2629,7 @@
         width: 100%;
         background-color: #d9d9d9;
         height: 950px;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .membros-titulo h1{
@@ -2902,7 +2975,7 @@
     .sobre-titulo{
         text-align: center;
         margin-left: 5%;
-        padding-top: 10%;
+        padding-top: 4%;
         margin-bottom: 5%;
         border-bottom: 5px solid #295175;
         width: 18%;
@@ -2963,7 +3036,7 @@
 
     .gestao-texto{
         margin-top: 3%;
-        padding-bottom: 13%;
+        padding-bottom: 5%;
     }
 
     .gestao-texto p{
@@ -2977,7 +3050,7 @@
     .propostas{
         width: 100%;
         background-color: #295175;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .propostas-titulo h1{
@@ -2985,7 +3058,7 @@
         margin-top: 4%;
         border-bottom: 5px solid #ff800a;
         width: 12%;
-        margin-left: 5%;
+        margin-left: 10%;
         padding-bottom: 5px;
     }
 
@@ -2997,8 +3070,8 @@
     }
 
     .propostas-lista{
-        width: 106%;
-        margin-left: 2%;
+        width: 90%;
+        margin-left: 10%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -3037,7 +3110,7 @@
         width: 100%;
         background-color: #d9d9d9;
         height: 950px;
-        margin-top: 20%
+        margin-top: 15%
     }
 
     .membros-titulo h1{
