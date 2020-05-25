@@ -31,8 +31,9 @@
     }
 
     nav img{
-        width: 22% !important;
+        width: 20% !important;
         margin-left: 1%;
+        display: inline !important;
     }
 
     .links{
@@ -44,15 +45,10 @@
         font-weight: bolder;
     }
 
-    .links a:hover{
-        text-decoration: none !important;
-        color: #ffffff !important;
-        border-bottom: 3px solid #0092ff !important;
-    }
-
     button{
         background-color: #0092ff !important;
-        margin-right: 14% !important;
+        margin-left: 70% !important;
+        margin-top: -11% !important;
     }
 
     .home{
@@ -415,6 +411,7 @@
         background-color: #ffffff;
         width: 85%;
         border-radius: 44px;
+        border: 3px solid #000000;
     }
 
     .contatos-links-logos a{
@@ -451,6 +448,46 @@
 
     #facebook-icon{
         font-size: 35px;
+    }
+    
+    form{
+        margin-top: 5%;
+        background-color: #ffffff !important;
+        width: 85% !important;
+        margin-left: 8%;
+        border-radius: 44px;
+        border: 3px solid #000000;
+    }
+    
+    form h1{
+        margin-top: 3%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+    }
+    
+    label{
+        margin-left: 15% !important;
+        margin-top: 3% !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        font-size: 20px
+    }
+    
+    input{
+        margin-top: 1% !important;
+        width: 80% !important;
+        margin-left: 10% !important;
+        border: 3px solid #000000 !important;
+        border-radius: 22px !important;
+    }
+    
+    textarea{
+        width: 80% !important;
+        margin-left: 10% !important;
+        border: 3px solid #000000 !important;
+        margin-bottom: 3% !important;
+        border-radius: 22px !important;
     }
 
     .position-logo{
@@ -548,15 +585,9 @@
         font-weight: bolder;
     }
 
-    .links a:hover{
-        text-decoration: none !important;
-        color: #ffffff !important;
-        border-bottom: 3px solid #0092ff !important;
-    }
-
     button{
         background-color: #0092ff !important;
-        margin-right: 19% !important;
+        margin-left: 90% !important;
     }
 
     .home{
@@ -920,6 +951,7 @@
         background-color: #ffffff;
         width: 80%;
         border-radius: 44px;
+        border: 3px solid #000000;
     }
 
     .contatos-links-logos a{
@@ -956,6 +988,46 @@
 
     #facebook-icon{
         font-size: 35px;
+    }
+    
+    form{
+        margin-top: 5%;
+        background-color: #ffffff !important;
+        width: 80% !important;
+        margin-left: 10%;
+        border-radius: 44px;
+        border: 3px solid #000000;
+    }
+    
+    form h1{
+        margin-top: 3%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+    }
+    
+    label{
+        margin-left: 15% !important;
+        margin-top: 3% !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        font-size: 20px
+    }
+    
+    input{
+        margin-top: 1% !important;
+        width: 80% !important;
+        margin-left: 10% !important;
+        border: 3px solid #000000 !important;
+        border-radius: 22px !important;
+    }
+    
+    textarea{
+        width: 80% !important;
+        margin-left: 10% !important;
+        border: 3px solid #000000 !important;
+        margin-bottom: 3% !important;
+        border-radius: 22px !important;
     }
 
     .position-logo{
@@ -1040,7 +1112,7 @@
     }
 
     nav img{
-        width: 27% !important;
+        width: 17% !important;
         margin-left: 1%;
     }
 
@@ -1053,15 +1125,10 @@
         font-weight: bolder;
     }
 
-    .links a:hover{
-        text-decoration: none !important;
-        color: #ffffff !important;
-        border-bottom: 3px solid #0092ff !important;
-    }
-
     button{
         background-color: #0092ff !important;
-        margin-right: 3% !important;
+        float: right !important;
+        margin-left: 90% !important;
     }
 
     .home{
@@ -1396,6 +1463,7 @@
         background-color: #ffffff;
         width: 55%;
         border-radius: 44px;
+        border: 3px solid #000000;
     }
 
     .contatos-links-logos a{
@@ -1432,6 +1500,46 @@
 
     #facebook-icon{
         font-size: 35px;
+    }
+    
+    form{
+        margin-top: 5%;
+        background-color: #ffffff !important;
+        width: 55% !important;
+        margin-left: 23%;
+        border-radius: 44px;
+        border: 3px solid #000000;
+    }
+    
+    form h1{
+        margin-top: 3%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+    }
+    
+    label{
+        margin-left: 15% !important;
+        margin-top: 3% !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        font-size: 20px
+    }
+    
+    input{
+        margin-top: 1% !important;
+        width: 80% !important;
+        margin-left: 10% !important;
+        border: 3px solid #000000 !important;
+        border-radius: 22px !important;
+    }
+    
+    textarea{
+        width: 80% !important;
+        margin-left: 10% !important;
+        border: 3px solid #000000 !important;
+        margin-bottom: 3% !important;
+        border-radius: 22px !important;
     }
 
     .position-logo{
@@ -1517,7 +1625,7 @@
     }
 
     nav img{
-        width: 27% !important;
+        width: 17% !important;
         margin-left: 1%;
     }
 
@@ -1531,15 +1639,9 @@
         font-weight: bolder;
     }
 
-    .links a:hover{
-        text-decoration: none !important;
-        color: #ffffff !important;
-        border-bottom: 3px solid #0092ff !important;
-    }
-
     button{
         background-color: #0092ff !important;
-        margin-right: 10% !important;
+        margin-left: 90% !important;
     }
 
     .home{
@@ -1865,6 +1967,7 @@
         background-color: #ffffff;
         width: 50%;
         border-radius: 44px;
+        border: 3px solid #000000;
     }
 
     .contatos-links-logos a{
@@ -1901,6 +2004,46 @@
 
     #facebook-icon{
         font-size: 35px;
+    }
+    
+    form{
+        margin-top: 5%;
+        background-color: #ffffff !important;
+        width: 50% !important;
+        margin-left: 25%;
+        border-radius: 44px;
+        border: 3px solid #000000;
+    }
+    
+    form h1{
+        margin-top: 3%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+    }
+    
+    label{
+        margin-left: 15% !important;
+        margin-top: 3% !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        font-size: 20px
+    }
+    
+    input{
+        margin-top: 1% !important;
+        width: 80% !important;
+        margin-left: 10% !important;
+        border: 3px solid #000000 !important;
+        border-radius: 22px !important;
+    }
+    
+    textarea{
+        width: 80% !important;
+        margin-left: 10% !important;
+        border: 3px solid #000000 !important;
+        margin-bottom: 3% !important;
+        border-radius: 22px !important;
     }
 
     .position-logo{
@@ -1986,7 +2129,7 @@
     }
 
     nav img{
-        width: 30% !important;
+        width: 40% !important;
         margin-left: 3%;
     }
 
@@ -1997,12 +2140,6 @@
     .links ul li a{
         color: #0092ff !important;
         font-weight: bolder;
-    }
-
-    .links a:hover{
-        text-decoration: none !important;
-        color: #ffffff !important;
-        border-bottom: 3px solid #0092ff !important;
     }
 
     button{
@@ -2328,6 +2465,7 @@
         background-color: #ffffff;
         width: 45%;
         border-radius: 44px;
+        border: 3px solid #000000;
     }
 
     .contatos-links-logos a{
@@ -2364,6 +2502,46 @@
 
     #facebook-icon{
         font-size: 35px;
+    }
+    
+    form{
+        margin-top: 5%;
+        background-color: #ffffff !important;
+        width: 45% !important;
+        margin-left: 27%;
+        border-radius: 44px;
+        border: 3px solid #000000;
+    }
+    
+    form h1{
+        margin-top: 3%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+    }
+    
+    label{
+        margin-left: 15% !important;
+        margin-top: 3% !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        font-size: 20px
+    }
+    
+    input{
+        margin-top: 1% !important;
+        width: 80% !important;
+        margin-left: 10% !important;
+        border: 3px solid #000000 !important;
+        border-radius: 22px !important;
+    }
+    
+    textarea{
+        width: 80% !important;
+        margin-left: 10% !important;
+        border: 3px solid #000000 !important;
+        margin-bottom: 3% !important;
+        border-radius: 22px !important;
     }
 
     .position-logo{
@@ -2449,7 +2627,7 @@
     }
 
     nav img{
-        width: 42%;
+        width: 52% !important;
         margin-left: 5%;
     }
 
@@ -2809,6 +2987,7 @@
         background-color: #ffffff;
         width: 43%;
         border-radius: 44px;
+        border: 3px solid #000000;
     }
 
     .contatos-links-logos a{
@@ -2846,10 +3025,50 @@
     #facebook-icon{
         font-size: 35px;
     }
+    
+    form{
+        margin-top: 5%;
+        background-color: #ffffff !important;
+        width: 43% !important;
+        margin-left: 28%;
+        border-radius: 44px;
+        border: 3px solid #000000;
+    }
+    
+    form h1{
+        margin-top: 3%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+    }
+    
+    label{
+        margin-left: 15% !important;
+        margin-top: 3% !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        font-size: 20px
+    }
+    
+    input{
+        margin-top: 1% !important;
+        width: 70% !important;
+        margin-left: 15% !important;
+        border: 3px solid #000000 !important;
+        border-radius: 22px !important;
+    }
+    
+    textarea{
+        width: 70% !important;
+        margin-left: 15% !important;
+        border: 3px solid #000000 !important;
+        margin-bottom: 3% !important;
+        border-radius: 22px !important;
+    }
 
     .position-logo{
         text-align: center;
-        margin-top: 8%;
+        margin-top: 5%;
         margin-bottom: 2%;
     }
 
@@ -2930,7 +3149,7 @@
     }
 
     nav img{
-        width: 30% !important;
+        width: 50% !important;
         margin-left: 5%;
     }
 
@@ -3290,6 +3509,7 @@
         background-color: #ffffff;
         width: 43%;
         border-radius: 44px;
+        border: 3px solid #000000;
     }
 
     .contatos-links-logos a{
@@ -3327,10 +3547,50 @@
     #facebook-icon{
         font-size: 35px;
     }
+    
+    form{
+        margin-top: 5%;
+        background-color: #ffffff !important;
+        width: 43% !important;
+        margin-left: 28%;
+        border-radius: 44px;
+        border: 3px solid #000000;
+    }
+    
+    form h1{
+        margin-top: 3%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+    }
+    
+    label{
+        margin-left: 15% !important;
+        margin-top: 3% !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        font-size: 20px
+    }
+    
+    input{
+        margin-top: 1% !important;
+        width: 70% !important;
+        margin-left: 15% !important;
+        border: 3px solid #000000 !important;
+        border-radius: 22px !important;
+    }
+    
+    textarea{
+        width: 70% !important;
+        margin-left: 15% !important;
+        border: 3px solid #000000 !important;
+        margin-bottom: 3% !important;
+        border-radius: 22px !important;
+    }
 
     .position-logo{
         text-align: center;
-        margin-top: 8%;
+        margin-top: 5%;
         margin-bottom: 2%;
     }
 
