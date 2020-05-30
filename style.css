@@ -41,7 +41,7 @@
     }
 
     .links ul li a{
-        color: #0092ff !important;
+        color: yellow !important;
         font-weight: bolder;
     }
 
@@ -540,6 +540,7 @@
         background-color: #295175;
         width: 100%;
         margin: 0;
+        
     }
 
     footer h1{
@@ -604,7 +605,7 @@
     }
 
     .links ul li a{
-        color: #0092ff !important;
+        color: yellow !important;
         font-weight: bolder;
     }
 
@@ -1167,7 +1168,7 @@
     }
 
     .links ul li a{
-        color: #0092ff !important;
+        color: yellow !important;
         font-weight: bolder;
     }
 
@@ -1703,7 +1704,7 @@
     }
 
     .links ul li a{
-        color: #0092ff !important;
+        color: yellow !important;
         font-weight: bolder;
     }
 
@@ -2228,7 +2229,7 @@
     }
 
     .links ul li a{
-        color: #0092ff !important;
+        color: yellow !important;
         font-weight: bolder;
     }
 
@@ -2736,6 +2737,7 @@
         top: 0;
         left: 0;
         z-index: 9999;
+        color: yellow;
     }
 
     nav img{
@@ -2749,7 +2751,7 @@
     }
 
     .links ul li a{
-        color: #0092ff !important;
+        color: yellow !important;
         font-weight: bolder;
     }
 
@@ -3227,6 +3229,7 @@
         background-color: #295175;
         width: 100%;
         margin: 0;
+        color: white;
     }
 
     footer h1{
@@ -3293,7 +3296,7 @@
     }
 
     .links ul li a{
-        color: #0092ff !important;
+        color: yellow !important;
         font-weight: bolder;
     }
 
