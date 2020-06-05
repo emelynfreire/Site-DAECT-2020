@@ -1,23 +1,23 @@
--recursividade-
-resursividade do menu ajeitar - breno
-icone do menu
+---------------GERAL--------------------------
+*Breno
+resursividade do menu ajeitar 
 
--geral-
-trocar fotos com mais qualidade - enzo
+*Emelyn
 formulario contraste emelyn
 formulario js emelyn
-
--paginas a fazer-
-*breno
-noticias
-conexao com CAs (pegar todos contatos e logos)- CAs inativos(materias, telecomunicações, petroleo)
-voluntarios (pagina simples pra divulgação de voluntarios e apoiadores da gente)
-
-*emelyn
-divulgacao de artigos(monstrar trabalhos feitos na UFRN, artigos, uma especie de bando de artigos)
-acessibilidade (mapa e utilizades) emelyn
 add tabindex emelyn
 add alt emelyn
-pagina da acessibilidade do site emelyn
+
+------------------paginas a fazer------------------
+
+*breno
+1.Noticias
+2.conexao com CAs (pegar todos contatos e logos)- CAs inativos (materias, telecomunicações, petroleo)
+3.voluntarios (pagina simples pra divulgação de voluntarios e apoiadores da gente)
+
+*emelyn
+4. divulgacao de artigos(monstrar trabalhos feitos na UFRN, artigos, uma especie de bando de artigos)
+5. acessibilidade (mapa e utilizades) emelyn
+6. pagina da acessibilidade do site emelyn
 
 
