@@ -3,167 +3,88 @@
     
     <head>
         <meta charset="utf-8">
-        <link rel="shortcut icon" href="imagens/logod.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!--acessibilidade web-->
+        <link rel="stylesheet" href="./css/style.css" media="screen and (color)">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+        <link rel="shortcut icon" href="imagens/daect-logo.png">
+          <!--acessibilidade web-->
         <link href="./css/contraste.css" rel="stylesheet">
+        <link href="./css/font.css" rel="stylesheet" type="text/css" />
         <script src="./js/contraste.js"></script>
         <script type="text/javascript" src="js/acessibilidade.js"></script>
         <meta name="keywords" content="Diretório Acadêmico, UFRN, ECT, Escola de ciências e tecnologia">
         <!--fim acessibilidade web-->
 
-        <!-- formulario 
-        <script type="text/javascript" src="js/formulario.js"></script> JS pra envio de mensagem pro e-mail
-        <script type="text/php" src="enviarEmail.php"></script>
-        -->
-        <link rel="stylesheet" href="css/style.css" media="screen and (color)">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-        <link rel="stylesheet" href="bootstrap.min.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-        
-
-        <!--config do novo menu -->
-
-         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
-    
-    <link href="css/style-menu.css" rel="stylesheet" type="text/css" />
-    <link href="css/font.css" rel="stylesheet" type="text/css" />
-
-    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/jquery.slicknav.js"></script>
-     <!-- config menu novo -->   
-        
+        <title>DAECT UFRN</title>
     </head>
 
-    <body>
+    <body >
+        <div class="container-fluid">
+            <div class="row">
 
-        <header>
-        <div class="container">
+                <header>
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar">
 
-            <nav>
-
-              <h1 class="danome"><img class="logo" src="imagens/daect-logo.png"></h1></center>
-               
-                
-                <div class="menu">
-                       <ul>                     
-                       
-                        <!-- item sobre-->
-                         <li ><a href="#">SOBRE</a>
-                            <ul>
+                        <a href="index.html">
+                            <img class="navbar-brand logo-navbar" src="imagens/daect-logo.png"></img>
+                        </a>
+              
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsite">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+              
+                        <div class="collapse navbar-collapse links" id="navbarsite">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html">SOBRE</a>
+                                    
+                                    <ul>
                                         <li><a href="#sobre">O QUE É DAECT?</a></li>
                                         <li><a href="#gestao">GESTÃO ORGANIZAR & AGIR</a></li>
                                         <li><a href="#propostas">PROPOSTAS</a></li>
                                         <li><a href="#membros">MEMBROS</a></li>
                                         <li><a href="#contatos">CONTATO</a></li>
-                            </ul>
-                        </li>
-                        <!-- fim item sobre-->
-                               
-                        <li><a href="#">NOTÍCIAS</a></li>
+                                         </ul>
+                                        
+                                </li>
 
-                        <!-- item projetos-->
-                         <li><a href="#">PROJETOS</a>
-                            <ul>
+
+                                <li class="nav-item"><a class="nav-link" href="noticias.html">NOTÍCIAS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">PROJETOS</a>
+                                 <ul>
                                         <li><a href="https://www.youtube.com/channel/UCXlowgFAvTejMOAqK8OBYvA" target="_blank">Canal C&T</a></li>
                                         <li><a href="#">Conexão DA e CAs</a></li>
-                                        <li><a href="#">DIVULGAÇÃO PROJETOS E ARTIGOS</a></li>
+                                        <li><a href="#">Divulgação projetos e artigos</a></li>
                                         <li><a href="#">Voluntários e parcerias</a></li>
-                            </ul>
-                        </li>
-                        <!-- fim item sobre-->
-                    
+                                        </ul>
 
-                        <!-- item mais infos-->
-                        <li><a href="#">+INFOS</a>
-                        <ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#">+INFOS</a>
+
+                                     <ul>
                                         <li><a href="https://ufrn.br/" target="_blank">Portal da UFRN</a></li>
                                         <li><a href="https://www.ect.ufrn.br/" target="_blank">ECT | UFRN</a></li>
                                         <li><a href="http://www.tvu.ufrn.br/" target="_blank">TVU | UFRN</a></li>
                                         <li><a href="http://www.comcet.ect.ufrn.br/" target="_blank">COMCET | ECT</a></li>
                                         
                                         <li><a href="https://www.facebook.com/groups/253253254760981/" target="_blank">A GRANDE FAMÍLIA ECT</a></li>
-
-
-                            </ul>
-                        </li>
-                        <!-- fim item mais infos-->
-                                
-                               <li class="nav-item"><a class="nav-link" href="#">ACESSIBILIDADE</a></li>
-                                <!-- parte de acessibilidade-->
-                                <li><a class="nav-link" href="#altocontraste" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()" accesskey="4" tabindex="4">✸</a></li>
+                                         </ul>
+                                     </li>
+                                 <li><a class="nav-link" href="#altocontraste" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()" accesskey="4" tabindex="4">✸</a></li>
 
                                  <li class="nav-item"><a class="nav-link" href="javascript:mudaTamanho('html', +1);" accesskey="5"  tabindex="5">+A</a></li>
 
                                   <li class="nav-item"><a class="nav-link" href="#" onclick="normal()"accesskey="5"  tabindex="5">A</a></li>
                                   <!-- fim acessibilidade -->
-
-                        </li>
-
-                         <li>
-                            <div class="socialmedia">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/daect.ect.ufrn.br/" class="fa fa-facebook"></a></li>
-                                    <li><a href="https://www.twitter.com/daect_ufrn" class="fa fa-twitter"></a></li>
-                                    <li><a href="https://www.instagram.com/daect_ufrn" class="fa fa-instagram"></a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCXlowgFAvTejMOAqK8OBYvA" class="fa fa fa-youtube-play"></a></li>
-                                </ul>
-                            </div><!--/socialmedia-->
-                        </li>
-                    </ul>
-
-                </div><!--/menu-->
-            </nav>
-        </div><!--/container-->      
-    </header>
-       <!-- <div class="container-fluid">
-
-            <div class="row">
-                  
-                <!--
-                    <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar">
-                    <a href="#home">
-                            <img class="navbar-brand logo-navbar" width="100%" height="100%" src="imagens/daect-logo.png">
-                        </a>
-              
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsite">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-
-
-              
-                        <div class="collapse navbar-collapse links" id="navbarsite">
-                            <ul class="navbar-nav mr-auto">
-
-                                <li class="nav-item"><a class="nav-link" href="#sobre">SOBRE</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#propostas">PROPOSTAS</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#membros">MEMBROS</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#eventos">NOTÍCIAS</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#contatos">CONTATO</a></li>
-                                <!-- parte de acessibilidade
-                                <li><a class="nav-link" href="#altocontraste" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()" accesskey="4" tabindex="4">✸</a></li>
-
-                                 <li class="nav-item"><a class="nav-link" href="javascript:mudaTamanho('html', +1);" accesskey="5"  tabindex="5">+A</a></li>
-
-                                  <li class="nav-item"><a class="nav-link" href="#" onclick="normal()"accesskey="5"  tabindex="5">A</a></li>
-                                  <!-- fim acessibilidade 
-                            
                             </ul>
-
                         </div>
 
                     </nav>
-                        
-                </header> -->
-                
+                </header>
+
                 <!--carrosel inicial -->
                 <div class="home" id="home">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -479,17 +400,16 @@
                 <footer>
                     <center>
                     <p>
-                        Diretório Acadêmico da Escola de Ciências e Tecnologia da UFRN<br>
+                        DIRETÓRIO ACADÊMICO DA ESCOLA DE CIÊNCIAS E TECNOLOGIA DA UFRN<br>
                         UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE | ESCOLA DE CIÊNCIAS E TECNOLOGIA<br>
                         E-mail: organizareagirdaect@gmail.com | Tel:+55 84 99843-5812 <br>
                         Desenvolvido por:
-               
                   <a href="https://www.linkedin.com/in/breno-barbosa-2683181a7/" target="_blank">
-                        Breno Barbosa <i class="fab fa-linkedin"></i>
+                        Breno Barbosa<i class="fab fa-linkedin"></i> |
                     </a><a href="https://www.linkedin.com/in/emelynfreire" target="_blank">
-                        Emelyn Freire <i class="fab fa-linkedin"></i>
-                    </a></p>
-                    DAECT UFRN Copyright © 2020
+                        Emelyn Freire<i class="fab fa-linkedin"></i><br>
+                    </a>
+                    DAECT UFRN Copyright © 2020</p>
                </center>
                 </footer>
 
