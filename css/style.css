@@ -20,16 +20,34 @@
         background-image: url(imagens/imagem-fundo.png);
     }
 
-    
+    nav{
+        width: 100%;
+        background-color: #FAFAFA !important;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+
+    }
+
+
+    nav img{
+        width: 20% !important;
+        margin-left: 1%;
+        display: inline !important;
+    }
+
 
     .links{
         margin-left: 1%;
     }
 
     .links ul li a{
-        color: yellow !important;
+        color: #0092ff !important;
         font-weight: bolder;
     }
+
 
     button{
         background-color: #0092ff !important;
@@ -201,7 +219,6 @@
     .membros-daect{
         width: 100%;
         background-color: #d9d9d9;
-        font-weight: bolder;
         height: 2500px;
         margin-top: 15%
     }
@@ -528,18 +545,8 @@
         width: 100%;
         margin: 0;
         color: white;
-        
-    }
-    footer p {
-        color:white;
-    }
-    footer p a{
-        color: yellow;
 
     }
-     footer p a:hover{
-        color: white;
-     }
 
     footer h1{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
@@ -551,12 +558,12 @@
     }
 
     footer a i{
-        color: #ffffff;
+        color: yellow;
         margin-left: 1%;
     }
 
     footer a i:hover{
-        color: #ff800a;
+        color: white;
         transition: 0.4s;
     }
 }
@@ -585,7 +592,7 @@
 
     nav{
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.7) !important;
+       background-color: #FAFAFA !important;
         position: fixed;
         width: 100%;
         top: 0;
@@ -598,13 +605,15 @@
         margin-left: 1%;
     }
 
-    .links{
-        margin-left: 1%;
+    .links ul li a{
+        color: grey !important;
+        font-weight: bolder;
     }
 
-    .links ul li a{
-        color: yellow !important;
-        font-weight: bolder;
+    .links a:hover{
+        text-decoration: none !important;
+        color: #aaa !important;
+        border-bottom: 3px solid #0092ff !important;
     }
 
     button{
@@ -777,13 +786,8 @@
     .membros-daect{
         width: 100%;
         background-color: #d9d9d9;
-        font-weight: bolder;
         height: 2500px;
         margin-top: 15%
-
-    }
-    .membros-daect li a{
-        color: blue;
     }
 
     .membros-titulo h1{
@@ -1107,21 +1111,8 @@
         background-color: #295175;
         width: 100%;
         margin: 0;
-        color: white;
+         color: white;
     }
-
-    footer p {
-        color:white;
-    }
-
-
-    footer p a{
-        color: yellow;
-
-    }
-     footer p a:hover{
-        color: white;
-     }
 
     footer h1{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
@@ -1133,12 +1124,12 @@
     }
 
     footer a i{
-        color: #ffffff;
+        color: yellow;
         margin-left: 1%;
     }
 
     footer a i:hover{
-        color: #ff800a;
+        color: white;
         transition: 0.4s;
     }
 }
@@ -1167,7 +1158,7 @@
 
     nav{
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.7) !important;
+        background-color: #FAFAFA !important;
         position: fixed;
         width: 100%;
         top: 0;
@@ -1185,7 +1176,7 @@
     }
 
     .links ul li a{
-        color: yellow !important;
+        color: #0092ff !important;
         font-weight: bolder;
     }
 
@@ -1351,7 +1342,6 @@
     .membros-daect{
         width: 100%;
         background-color: #d9d9d9;
-        font-weight: bolder;
         height: 950px;
         margin-top: 15%
     }
@@ -1654,23 +1644,10 @@
 
     footer{
         background-color: #295175;
-        color: white;
         width: 100%;
         margin: 0;
-        color: white;
+         color: white;
     }
-
-    footer p {
-        color:white;
-    }
-
-    footer p a{
-        color: yellow;
-
-    }
-     footer p a:hover{
-        color: white;
-     }
 
     footer h1{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
@@ -1682,12 +1659,12 @@
     }
 
     footer a i{
-        color: #ffffff;
+        color: yellow;
         margin-left: 1%;
     }
 
     footer a i:hover{
-        color: #ff800a;
+        color: white;
         transition: 0.4s;
     }
 }
@@ -1717,7 +1694,7 @@
 
     nav{
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.7) !important;
+        background-color: #FAFAFA !important;
         position: fixed;
         width: 100%;
         top: 0;
@@ -1736,7 +1713,7 @@
     }
 
     .links ul li a{
-        color: yellow !important;
+        color: #0092ff !important;
         font-weight: bolder;
     }
 
@@ -1908,7 +1885,6 @@
     .membros-daect{
         width: 100%;
         background-color: #d9d9d9;
-        font-weight: bolder;
         height: 950px;
         margin-top: 15%
     }
@@ -2197,20 +2173,8 @@
         background-color: #295175;
         width: 100%;
         margin: 0;
-        color: white;
+         color: white;
     }
-
-    footer p {
-        color:white;
-    }
-
-    footer p a{
-        color: yellow;
-
-    }
-     footer p a:hover{
-        color: white;
-     }
 
     footer h1{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
@@ -2221,21 +2185,13 @@
         margin-left: 28%;
     }
 
-    footer p a{
-        color: yellow;
-
-    }
-     footer p a:hover{
-        color: white;
-     }
-
     footer a i{
-        color: #ffffff;
+        color: yellow;
         margin-left: 1%;
     }
 
     footer a i:hover{
-        color: yellow;
+        color: white;
         transition: 0.4s;
     }
 }
@@ -2263,14 +2219,29 @@
         background-image: url(imagens/imagem-fundo.png);
     }
 
-    
+    nav{
+        width: 100%;
+        background-color: #FAFAFA !important;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    nav img{
+        width: 40% !important;
+        margin-left: 3%;
+    }
+
+
 
     .links{
         margin-left: 30%;
     }
 
     .links ul li a{
-        color: yellow !important;
+        color: #0092ff !important;
         font-weight: bolder;
     }
 
@@ -2431,8 +2402,6 @@
     .membros-daect{
         width: 100%;
         background-color: #d9d9d9;
-        font-weight: bolder;
-        font-weight: bolder;
         height: 950px;
         margin-top: 15%
     }
@@ -2727,20 +2696,8 @@
         background-color: #295175;
         width: 100%;
         margin: 0;
-        color: white;
+         color: white;
     }
-
-    footer p {
-        color:white;
-    }
-
-    footer p a{
-        color: yellow;
-
-    }
-     footer p a:hover{
-        color: white;
-     }
 
     footer h1{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
@@ -2752,12 +2709,12 @@
     }
 
     footer a i{
-        color: #ffffff;
+        color: yellow;
         margin-left: 1%;
     }
 
     footer a i:hover{
-        color: #ff800a;
+        color: white;
         transition: 0.4s;
     }
 }
@@ -2785,6 +2742,19 @@
         background-image: url(imagens/imagem-fundo.png);
     }
 
+    nav{
+        width: 100%;
+        background-color: #FAFAFA !important;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    nav img{
+        width: 52% !important;
+        margin-left: 5%;
+    }
 
     .links{
         margin-left: 58%;
@@ -2792,13 +2762,13 @@
     }
 
     .links ul li a{
-        color: yellow !important;
+        color: grey !important;
         font-weight: bolder;
     }
 
     .links a:hover{
         text-decoration: none !important;
-        color: #ffffff !important;
+        color: #aaa !important;
         border-bottom: 3px solid #0092ff !important;
     }
 
@@ -2961,7 +2931,6 @@
     .membros-daect{
         width: 100%;
         background-color: #d9d9d9;
-        font-weight: bolder;
         height: 950px;
         margin-top: 15%
     }
@@ -3271,19 +3240,8 @@
         background-color: #295175;
         width: 100%;
         margin: 0;
-        color: white;
+         color: white;
     }
-    footer p {
-        color:white;
-    }
-
-    footer p a{
-        color: yellow;
-
-    }
-     footer p a:hover{
-        color: white;
-     }
 
     footer h1{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
@@ -3295,12 +3253,12 @@
     }
 
     footer a i{
-        color: #ffffff;
+        color: yellow;
         margin-left: 1%;
     }
 
     footer a i:hover{
-        color: #ff800a;
+        color: white;
         transition: 0.4s;
     }
 }
@@ -3325,10 +3283,23 @@
         padding: 0;
         background-attachment: fixed;
         background-size: cover;
-       
+        background-image: url(imagens/imagem-fundo.png);
     }
 
+    nav{
+        width: 100%;
+        background-color: #FAFAFA !important;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
 
+    nav img{
+        width: 50% !important;
+        margin-left: 5%;
+    }
 
     .links{
         margin-left: 58%;
@@ -3336,7 +3307,7 @@
     }
 
     .links ul li a{
-        color: yellow !important;
+        color: #0092ff !important;
         font-weight: bolder;
     }
 
@@ -3507,7 +3478,6 @@
         background-color: #d9d9d9;
         height: 950px;
         margin-top: 15%
-        font-weight: bolder;
     }
 
     .membros-titulo h1{
@@ -3815,37 +3785,71 @@
         background-color: #295175;
         width: 100%;
         margin: 0;
-        color: white;
     }
-
-    footer p {
-        color: white;
-    }
-
-    footer p a{
-        color: yellow;
-
-    }
-     footer p a:hover{
-        color: white;
-     }
 
     footer h1{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
         font-weight: bolder;
-        color: #ffffff !important;
+        color: white !important;
         font-size: 20px;
         display: inline-block;
         margin-left: 38.5%;
     }
 
     footer a i{
-        color: #ffffff;
+        color: yellow;
         margin-left: 1%;
     }
 
     footer a i:hover{
-        color: #ff800a;
+        color: white;
         transition: 0.4s;
     }
+}
+
+/*configurações globais */
+body{
+    /*background-image: url("https://wallpaperaccess.com/full/979472.jpg");*/
+    background: white;
+}
+
+/*submenu*/
+nav ul li ul{
+    width: 250px;
+    position: absolute;
+    background:#FAFAFA;
+    display: none;
+    z-index: 83838337;
+    list-style-type: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul li ul a{
+    text-decoration: none;
+}
+
+
+/*cores do link dos membros*/
+.membros-daect ul li a{
+    color: #2E2E2E;
+}
+
+.membros-daect ul li a:hover{
+    color: #aaa;
+}
+
+.pag a{
+    float: center;
+}
+
+/*cores links desenvolvedores*/
+footer p a{
+    color: yellow;
+}
+
+footer p a:hover{
+    color:#aaa;
+
 }
